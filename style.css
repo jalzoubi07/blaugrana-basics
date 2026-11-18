@@ -82,12 +82,14 @@ a { color: var(--accent); }
 }
 
 .highlights img {
-  flex: 1 1 260px;
+  flex: 0 1 280px;
+  width: 280px;
   max-width: 100%;
+  height: auto;
   border: 3px solid var(--accent);
 }
 
-.highlights div { flex: 2 1 320px; }
+.highlights div { flex: 1 1 300px; }
 .highlights h2 { margin-top: 0; }
 
 form {
